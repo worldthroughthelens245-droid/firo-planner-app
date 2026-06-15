@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/firo-planner-app/sw.js', { scope: '/firo-planner-app/' })})}
